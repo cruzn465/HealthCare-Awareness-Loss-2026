@@ -1,0 +1,271 @@
+body {
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+* {
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000px;
+	-ms-overflow-style: hidden;
+}
+
+#container {
+	background-color: white;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.sprite {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.fpo {
+	opacity: .5;
+}
+
+#top_container {
+    left: 0px;
+    top: 0px;
+    width: 160px;
+    height: 203px;
+    /* background-color: #37f269; */
+}
+
+#bottom_container {
+    left: 0px;
+    bottom: 160px;
+    width: 160px;
+    height: 203px;
+    /* background-color: #37f269; */
+}
+
+#copyCircle1Top_2x {
+	left:14px;
+	top:20px;
+	width:135px;
+	height:368px;
+	background-image:url(../img/copyCircle1Top_2x.png);
+	background-size:135px 368px;
+}
+
+#copyCircle1Bottom_2x {
+    left: 13px;
+    top: -215px;
+    width: 138px;
+    height: 368px;
+    background-image: url(../img/copyCircle1Top_2x.png);
+    background-size: 138px 368px;
+}
+
+#box1 {
+	background-color: #f27037;
+    left: 147px;
+    top: 174px;
+    width: 6px;
+    height: 28px;
+}
+
+#box2 {
+	background-color: #f27239;
+    left: 6px;
+    top: 199px;
+    width: 146px;
+    height: 8px;
+}
+
+#box3 {
+	background-color: #f27037;
+    left: 6px;
+    top: 174px;
+    width: 6px;
+    height: 28px;
+}
+
+#box4 {
+	background-color: #f27037;
+    left: 6px;
+    top: 174px;
+    width: 140px;
+    height: 8px;
+}
+
+#cta_2x {
+	left:0px;
+	top:415px;
+	width:160px;
+	height:185px;
+	background-image:url(../img/cta_2x.png);
+	background-size:160px 185px;
+}
+
+#bg1_2x {
+	left:0px;
+	top:0px;
+	width:160px;
+	height:600px;
+	background-image:url(../img/bg1_2x.jpg);
+	background-size:160px 600px;
+}
+
+#bg2_2x {
+	left:0px;
+	top:0px;
+	width:160px;
+	height:600px;
+	background-image:url(../img/bg2_2x.jpg);
+	background-size:160px 600px;
+}
+
+#bg3_2x {
+	left:0px;
+	top:0px;
+	width:160px;
+	height:600px;
+	background-image:url(../img/bg3_2x.jpg);
+	background-size:160px 600px;
+}
+
+#bg4_2x {
+	left:0px;
+	top:0px;
+	width:160px;
+	height:600px;
+	background-image:url(../img/bg4_2x.jpg);
+	background-size:160px 600px;
+}
+
+#bg5_2x {
+	left:0px;
+	top:0px;
+	width:160px;
+	height:600px;
+	background-image:url(../img/bg1_2x.jpg);
+	background-size:160px 600px;
+}
+
+
+
+#eyebrow1_2x {
+	left:47px;
+	top:216px;
+	width:99px;
+	height:14px;
+	background-image:url(../img/eyebrow1_2x.png);
+	background-size:99px 14px;
+}
+
+#box_2x {
+	left:6px;
+	top:174px;
+	width:147px;
+	height:28px;
+	background-image:url(../img/box_2x.png);
+	background-size:147px 28px;
+}
+
+#c1_2x {
+	left:15px;
+	top:183px;
+	width:132px;
+	height:11px;
+	background-image:url(../img/c1_2x.png);
+	background-size:132px 11px;
+}
+
+#fpo_2x {
+	left:0px;
+	top:0px;
+	width:160px;
+	height:600px;
+	background-image:url(../img/fpo_2x.jpg);
+	background-size:160px 600px;
+}
+
+
+#c2_2x {
+	left:46px;
+	top:183px;
+	width:101px;
+	height:11px;
+	background-image:url(../img/c2_2x.png);
+	background-size:101px 11px;
+}
+
+#copyCircle2Top_2x {
+	left:11px;
+	top:20px;
+	width:138px;
+	height:368px;
+	background-image:url(../img/copyCircle2Top_2x.png);
+	background-size:138px 368px;
+}
+
+#copyCircle2Bottom_2x {
+	left:11px;
+	top:-215px;
+	width:138px;
+	height:368px;
+	background-image:url(../img/copyCircle2Top_2x.png);
+	background-size:138px 368px;
+}
+
+#copyCircle3Top_2x {
+	left:11px;
+	top:20px;
+	width:138px;
+	height:367px;
+	background-image:url(../img/copyCircle3Top_2x.png);
+	background-size:138px 367px;
+}
+
+#copyCircle3Bottom_2x {
+	left:11px;
+	top:-215px;
+	width:138px;
+	height:367px;
+	background-image:url(../img/copyCircle3Top_2x.png);
+	background-size:138px 367px;
+}
+
+#c3_2x {
+	left:18px;
+	top:183px;
+	width:129px;
+	height:11px;
+	background-image:url(../img/c3_2x.png);
+	background-size:129px 11px;
+}
+
+#c4_2x {
+	left:31px;
+	top:183px;
+	width:116px;
+	height:11px;
+	background-image:url(../img/c4_2x.png);
+	background-size:116px 11px;
+}
+
+#copyCircle4Top_2x {
+	left:11px;
+	top:20px;
+	width:138px;
+	height:367px;
+	background-image:url(../img/copyCircle4Top_2x.png);
+	background-size:138px 367px;
+}
+
+#copyCircle4Bottom_2x {
+	left:11px;
+	top:-215px;
+	width:138px;
+	height:367px;
+	background-image:url(../img/copyCircle4Top_2x.png);
+	background-size:138px 367px;
+}
