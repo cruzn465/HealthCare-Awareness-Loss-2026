@@ -91,7 +91,7 @@ a:hover {
 	top:0px;
 	width:308px;
 	height:250px;
-	background-image:url(../img/cta_2x.png);
+	background-image:url(cta_2x.png);
 	background-size:308px 250px;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 	top:0px;
 	width:970px;
 	height:250px;
-	background-image:url(../img/bg1_2x.jpg);
+	background-image:url(bg1_2x.jpg);
 	background-size:970px 250px;
 }
 
@@ -109,7 +109,7 @@ a:hover {
 	top:0px;
 	width:970px;
 	height:250px;
-	/* background-image:url(../img/bg2_2x.jpg); */
+	/* background-image:url(bg2_2x.jpg); */
 	background-color: #f27037;
 	background-size:970px 250px;
 }
@@ -119,7 +119,7 @@ a:hover {
 	top:0px;
 	width:970px;
 	height:250px;
-	background-image:url(../img/bg3_2x.jpg);
+	background-image:url(bg3_2x.jpg);
 	background-size:970px 250px;
 }
 
@@ -128,7 +128,7 @@ a:hover {
 	top:0px;
 	width:970px;
 	height:250px;
-	background-image:url(../img/bg4_2x.jpg);
+	background-image:url(bg4_2x.jpg);
 	background-size:970px 250px;
 }
 
@@ -137,7 +137,7 @@ a:hover {
 	top:0px;
 	width:970px;
 	height:250px;
-	background-image:url(../img/bg1_2x.jpg);
+	background-image:url(bg1_2x.jpg);
 	background-size:970px 250px;
 }
 
@@ -146,7 +146,7 @@ a:hover {
     top: 103px;
     width: 233px;
     height: 31px;
-    background-image: url(../img/eyebrow1_2x.png);
+    background-image: url(eyebrow1_2x.png);
     background-size: 233px 31px;
 }
 
@@ -155,7 +155,7 @@ a:hover {
 	top:86px;
 	width:355px;
 	height:63px;
-	background-image:url(../img/box_2x.png);
+	background-image:url(box_2x.png);
 	background-size:355px 63px;
 }
 
@@ -164,7 +164,7 @@ a:hover {
 	top:105px;
 	width:300px;
 	height:25px;
-	background-image:url(../img/c1_2x.png);
+	background-image:url(c1_2x.png);
 	background-size:300px 25px;
 }
 
@@ -173,7 +173,7 @@ a:hover {
 	top:0px;
 	width:970px;
 	height:250px;
-	background-image:url(../img/fpo_2x.jpg);
+	background-image:url(fpo_2x.jpg);
 	background-size:970px 250px;
 }
 
@@ -182,7 +182,7 @@ a:hover {
 	top:104px;
 	width:237px;
 	height:26px;
-	background-image:url(../img/c2_2x.png);
+	background-image:url(c2_2x.png);
 	background-size:237px 26px;
 }
 
@@ -191,7 +191,7 @@ a:hover {
 	top:139px;
 	width:294px;
 	height:103px;
-	background-image:url(../img/copyCircle1Top_2x.png);
+	background-image:url(copyCircle1Top_2x.png);
 	background-size:294px 103px;
 }
 
@@ -200,7 +200,7 @@ a:hover {
     top: -3px;
     width: 294px;
     height: 103px;
-    background-image: url(../img/copyCircle1Top_2x.png);
+    background-image: url(copyCircle1Top_2x.png);
     background-size: 294px 103px;
 }
 
@@ -209,7 +209,7 @@ a:hover {
 	top:38px;
 	width:294px;
 	height:211px;
-	background-image:url(../img/copyCircle2Top_2x.png);
+	background-image:url(copyCircle2Top_2x.png);
 	background-size:294px 211px;
 }
 
@@ -218,7 +218,7 @@ a:hover {
     top: -103px;
     width: 294px;
     height: 211px;
-    background-image: url(../img/copyCircle2Top_2x.png);
+    background-image: url(copyCircle2Top_2x.png);
     background-size: 294px 211px;
 }
 
@@ -227,7 +227,7 @@ a:hover {
 	top:4px;
 	width:294px;
 	height:246px;
-	background-image:url(../img/copyCircle3Top_2x.png);
+	background-image:url(copyCircle3Top_2x.png);
 	background-size:294px 246px;
 }
 
@@ -236,7 +236,7 @@ a:hover {
 	top:-156px;
 	width:294px;
 	height:246px;
-	background-image:url(../img/copyCircle3Top_2x.png);
+	background-image:url(copyCircle3Top_2x.png);
 	background-size:294px 246px;
 }
 
@@ -245,7 +245,7 @@ a:hover {
 	top:104px;
 	width:304px;
 	height:26px;
-	background-image:url(../img/c3_2x.png);
+	background-image:url(c3_2x.png);
 	background-size:304px 26px;
 }
 
@@ -254,7 +254,7 @@ a:hover {
 	top:105px;
 	width:287px;
 	height:27px;
-	background-image:url(../img/c4_2x.png);
+	background-image:url(c4_2x.png);
 	background-size:287px 27px;
 }
 
@@ -263,7 +263,7 @@ a:hover {
 	top:1px;
 	width:289px;
 	height:243px;
-	background-image:url(../img/copyCircle4Top_2x.png);
+	background-image:url(copyCircle4Top_2x.png);
 	background-size:289px 243px;
 }
 
@@ -272,6 +272,6 @@ a:hover {
     top: -150px;
     width: 289px;
     height: 243px;
-    background-image: url(../img/copyCircle4Top_2x.png);
+    background-image: url(copyCircle4Top_2x.png);
     background-size: 289px 243px;
 }

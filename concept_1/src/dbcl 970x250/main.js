@@ -103,7 +103,14 @@ function returnTimer(){
     stopWatch=((new Date().getTime())-stopWatch)*.001;
     console.log(stopWatch+" seconds");
 }
+// RM FXNS
+function myFunction() {
+  Enabler.exit('BackgroundExit');
+}
 
+function exitClickHandler() {
+  Enabler.exit('BackgroundExit');
+}
 function clickThrough(){
     window.open(clicktag);
 }
