@@ -57,7 +57,6 @@ function addListeners(){
 function animate(){
     stopWatch=new Date().getTime(); 
 
-    // const bg_copies = [bkg_txt_0,bkg_txt_1,bkg_txt_2,bkg_txt_3,c1_2x,bkg_txt_4,c2_2x,bkg_txt_5,c3_2x,bkg_txt_6,c4_2x,bkg_txt_7,bkg_txt_8,bkg_txt_9,bkg_txt_10,bkg_txt_11,bkg_txt_12,bkg_txt_13,bkg_txt_14,bkg_txt_15,bkg_txt_16,bkg_txt_17,bkg_txt_18,bkg_txt_19,bkg_txt_20]
     //timeline animation here
     //set timeline
     tl
@@ -74,52 +73,30 @@ function animate(){
     .to(box4,.2,{x:140,width:0},"-=.05")
 
     // f1 scroll out
-    .to([c1_2x,copyCircle1Top_2x,copyCircle1Bottom_2x],.3,{y:33.5,opacity:0,ease:Power1.easeIn},"+=1")
+    .to([c1_2x,copyCircle1Top_2x,copyCircle1Bottom_2x],.2,{y:33.5,opacity:0,ease:Power2.easeIn},"+=1")
     
     // F2 scroll in/out "turn 26" 
-    .from(bg3_2x,.2,{opacity:0,ease:Power1.easeIn},"f2")
-    .from([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.3,{y:-33.5,opacity:0,ease:Power1.easeIn},"f2")
-    .to([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.3,{y:33.5,opacity:0,ease:Power1.easeOut},"+=2")
+    .from(bg3_2x,.15,{opacity:0,ease:Power2.easeIn},"f2")
+    .from([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.15,{y:-33.5,opacity:0,ease:Power2.easeIn},"f2")
+    .to([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.15,{y:33.5,opacity:0,ease:Power2.easeOut},"+=2")
 
 
     // F3 scroll in/out "lost"
-    .from(bg4_2x,.2,{opacity:0,ease:Power1.easeIn},"f3")
+    .from(bg4_2x,.15,{opacity:0,ease:Power2.easeIn},"f3")
 
-    .from([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.3,{y:-33.5,opacity:0,ease:Power1.easeIn},"f3")
-    .to([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.3,{y:33.5,opacity:0,ease:Power1.easeOut},"+=2")
+    .from([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.15,{y:-33.5,opacity:0,ease:Power2.easeIn},"f3")
+    .to([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.15,{y:33.5,opacity:0,ease:Power2.easeOut},"+=2")
 
 
     // F4 scroll in/out "life happens"
-    .from(bg5_2x,.2,{opacity:0,ease:Power1.easeIn},"f4")
+    .from(bg5_2x,.15,{opacity:0,ease:Power2.easeIn},"f4")
 
-    .from([c4_2x,copyCircle4Top_2x,copyCircle4Bottom_2x],.3,{y:-33.5,opacity:0,ease:Power1.easeIn},"f4")
-
-
+    .from([c4_2x,copyCircle4Top_2x,copyCircle4Bottom_2x],.15,{y:-33.5,opacity:0,ease:Power2.easeIn},"f4")
 
 
 
 
 
-    
-
-    
-
-
-//     .from(c1_2x,0.4,{x:-160,ease:Power1.easeIn},"+=.4")
-//     .from(c2_2x,0.4,{x:160,ease:Power1.easeIn})
-//     .from(c3_2x,0.4,{x:-160,ease:Power1.easeIn})
-//     .from(c4_2x,0.4,{x:160,ease:Power1.easeIn})
-//     .staggerTo(bg_copies,0.3,{opacity:0,ease:Power1.easeOut},0.05,"+=.5")
-
-// // ef
-//     .from(logo1_2x,0.4,{opacity:0,ease:Power1.easeIn},"+=.4")
-//     .to(logo1_2x,0.4,{y:20,ease:Power1.easeIn},"+=.8")
-//     .from(logo2_2x,0.4,{opacity:0,ease:Power1.easeIn},"+=.2")
-    
-
-
-
-    
     //.call(returnTimer)
 }
 

@@ -34,10 +34,6 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
-.fpo {
-	opacity: .5;
-}
-
 #top_container {
     left: 0px;
     top: 0px;
@@ -165,15 +161,6 @@ a:hover {
 	height:13px;
 	background-image:url(../img/c1_2x.png);
 	background-size:151px 13px;
-}
-
-#fpo_2x {
-	left:0px;
-	top:0px;
-	width:300px;
-	height:600px;
-	background-image:url(../img/fpo_2x.jpg);
-	background-size:300px 600px;
 }
 
 #c2_2x {

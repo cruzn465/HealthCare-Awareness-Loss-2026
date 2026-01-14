@@ -26,10 +26,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-.fpo {
-	opacity: .5;
-}
-
 #top_container {
     left: 0px;
     top: 0px;
@@ -170,6 +166,8 @@ body {
 	background-size:147px 28px;
 }
 
+
+
 #c1_2x {
 	left:15px;
 	top:183px;
@@ -177,15 +175,6 @@ body {
 	height:11px;
 	background-image:url(../img/c1_2x.png);
 	background-size:132px 11px;
-}
-
-#fpo_2x {
-	left:0px;
-	top:0px;
-	width:160px;
-	height:600px;
-	background-image:url(../img/fpo_2x.jpg);
-	background-size:160px 600px;
 }
 
 

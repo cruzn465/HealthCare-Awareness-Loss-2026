@@ -1,0 +1,136 @@
+
+
+#box_2x {
+	left:8px;
+	top:87px;
+	width:166px;
+	height:32px;
+	background-image:url(../img/box_2x.png);
+	background-size:166px 32px;
+}
+
+#c1_2x {
+	left:18px;
+	top:97px;
+	width:151px;
+	height:13px;
+	background-image:url(../img/c1_2x.png);
+	background-size:151px 13px;
+}
+
+#c2_2x {
+	left:51px;
+	top:96px;
+	width:116px;
+	height:13px;
+	background-image:url(../img/c2_2x.png);
+	background-size:116px 13px;
+}
+
+#c3_2x {
+	left:19px;
+	top:96px;
+	width:148px;
+	height:13px;
+	background-image:url(../img/c3_2x.png);
+	background-size:148px 13px;
+}
+
+#c4_2x {
+	left:28px;
+	top:96px;
+	width:139px;
+	height:13px;
+	background-image:url(../img/c4_2x.png);
+	background-size:139px 13px;
+}
+
+#copyCircle1Top_2x {
+	left:12px;
+	top:22px;
+	width:158px;
+	height:228px;
+	background-image:url(../img/copyCircle1Top_2x.png);
+	background-size:158px 228px;
+}
+
+#copyCircle2Top_2x {
+	left:12px;
+	top:22px;
+	width:158px;
+	height:228px;
+	background-image:url(../img/copyCircle2Top_2x.png);
+	background-size:158px 228px;
+}
+
+#copyCircle3Top_2x {
+	left:12px;
+	top:21px;
+	width:158px;
+	height:229px;
+	background-image:url(../img/copyCircle3Top_2x.png);
+	background-size:158px 229px;
+}
+
+#copyCircle4Top_2x {
+	left:15px;
+	top:21px;
+	width:155px;
+	height:228px;
+	background-image:url(../img/copyCircle4Top_2x.png);
+	background-size:155px 228px;
+}
+
+#cta_2x {
+	left:0px;
+	top:201px;
+	width:300px;
+	height:49px;
+	background-image:url(../img/cta_2x.png);
+	background-size:300px 49px;
+}
+
+#eyebrow1_2x {
+	left:180px;
+	top:96px;
+	width:113px;
+	height:16px;
+	background-image:url(../img/eyebrow1_2x.png);
+	background-size:113px 16px;
+}
+
+#bg1_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/bg1_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg2_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/bg2_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg3_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/bg3_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg4_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/bg4_2x.jpg);
+	background-size:300px 250px;
+}

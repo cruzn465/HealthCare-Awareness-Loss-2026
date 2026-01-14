@@ -1,0 +1,278 @@
+body {
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+* {
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000px;
+	-ms-overflow-style: hidden;
+}
+
+#container {
+	background-color: white;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+.overflow {
+	overflow: hidden;
+}
+/* Ensure all anchor tags show pointer cursor */
+a, a:hover, a:focus {
+	cursor: pointer;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.sprite {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.fpo {
+	opacity: .5;
+}
+
+#top_container {
+    left: 0px;
+    top: 0px;
+    width: 393px;
+    height: 150px;
+    /* background-color: #37f269; */
+}
+
+#bottom_container {
+    left: 10px;
+    bottom: -110px;
+    width: 380px;
+    height: 217px;
+    /* background-color: #37f269; */
+}
+
+#box1 {
+    background-color: #f27037;
+    left: 318px;
+    top: 18px;
+    width: 9px;
+    height: 50px;
+}
+
+#box2 {
+    background-color: #f27239;
+    left: 50px;
+    top: 61px;
+    width: 286px;
+    height: 8px;
+}
+
+#box3 {
+    background-color: #f27037;
+    left: 52px;
+    top: 17px;
+    width: 9px;
+    height: 53px;
+}
+
+#box4 {
+    background-color: #f27037;
+    left: 56px;
+    top: 16px;
+    width: 272px;
+    height: 8px;
+}
+
+#cta_2x {
+	left:555px;
+	top:0px;
+	width:173px;
+	height:90px;
+	background-image:url(cta_2x.png);
+	background-size:173px 90px;
+}
+
+#bg1_2x {
+	left:0px;
+	top:0px;
+	width:728px;
+	height:90px;
+	background-image:url(bg1_2x.jpg);
+	background-size:728px 90px;
+}
+
+#bg2_2x {
+	left:0px;
+	top:0px;
+	width:728px;
+	height:90px;
+	/* background-image:url(bg2_2x.jpg); */
+	background-color: #f27239;
+
+	background-size:728px 90px;
+}
+
+#bg3_2x {
+	left:0px;
+	top:0px;
+	width:728px;
+	height:90px;
+	background-image:url(bg3_2x.jpg);
+	background-size:728px 90px;
+}
+
+#bg4_2x {
+	left:0px;
+	top:0px;
+	width:728px;
+	height:90px;
+	background-image:url(bg4_2x.jpg);
+	background-size:728px 90px;
+}
+
+#bg5_2x {
+	left:0px;
+	top:0px;
+	width:970px;
+	height:250px;
+	background-image:url(bg1_2x.jpg);
+	background-size:970px 250px;
+}
+
+#eyebrow1_2x {
+	left:334px;
+	top:32px;
+	width:177px;
+	height:24px;
+	background-image:url(eyebrow1_2x.png);
+	background-size:177px 24px;
+}
+
+#box_2x {
+	left:54px;
+	top:20px;
+	width:271px;
+	height:48px;
+	background-image:url(box_2x.png);
+	background-size:271px 48px;
+}
+
+#c1_2x {
+	left:68px;
+	top:33px;
+	width:248px;
+	height:21px;
+	background-image:url(c1_2x.png);
+	background-size:248px 21px;
+}
+
+#fpo_2x {
+	left:0px;
+	top:0px;
+	width:728px;
+	height:90px;
+	background-image:url(fpo_2x.jpg);
+	background-size:728px 90px;
+}
+
+#c2_2x {
+	left:126px;
+	top:33px;
+	width:189px;
+	height:21px;
+	background-image:url(c2_2x.png);
+	background-size:189px 21px;
+}
+
+#copyCircle1Top_2x {
+	left:158px;
+	top:76px;
+	width:157px;
+	height:14px;
+	background-image:url(copyCircle1Top_2x.png);
+	background-size:157px 14px;
+}
+
+#copyCircle1Bottom_2x {
+    left: 72px;
+    top: -3px;
+    width: 294px;
+    height: 103px;
+    background-image: url(copyCircle1Top_2x.png);
+    background-size: 294px 103px;
+}
+
+#copyCircle2Top_2x {
+	left:109px;
+	top:0px;
+	width:205px;
+	height:90px;
+	background-image:url(copyCircle2Top_2x.png);
+	background-size:205px 90px;
+}
+
+#copyCircle2Bottom_2x {
+    left: 71px;
+    top: -103px;
+    width: 294px;
+    height: 211px;
+    background-image: url(copyCircle2Top_2x.png);
+    background-size: 294px 211px;
+}
+
+#copyCircle3Top_2x {
+	left:163px;
+	top:0px;
+	width:151px;
+	height:90px;
+	background-image:url(copyCircle3Top_2x.png);
+	background-size:151px 90px;
+}
+
+#copyCircle3Bottom_2x {
+	left:71px;
+	top:-156px;
+	width:294px;
+	height:246px;
+	background-image:url(copyCircle3Top_2x.png);
+	background-size:294px 246px;
+}
+
+#c3_2x {
+	left:73px;
+	top:33px;
+	width:243px;
+	height:21px;
+	background-image:url(c3_2x.png);
+	background-size:243px 21px;
+}
+
+#c4_2x {
+	left:98px;
+	top:33px;
+	width:217px;
+	height:21px;
+	background-image:url(c4_2x.png);
+	background-size:217px 21px;
+}
+
+#copyCircle4Top_2x {
+	left:113px;
+	top:0px;
+	width:201px;
+	height:90px;
+	background-image:url(copyCircle4Top_2x.png);
+	background-size:201px 90px;
+}
+
+#copyCircle4Bottom_2x {
+    left: 77px;
+    top: -150px;
+    width: 289px;
+    height: 243px;
+    background-image: url(copyCircle4Top_2x.png);
+    background-size: 289px 243px;
+}

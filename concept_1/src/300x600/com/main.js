@@ -72,28 +72,27 @@ function animate(){
     .to(box2,.2,{width:0},"-=.05")
     .to(box3,.1,{height:0})
     .to(box4,.2,{x:162,width:0},"-=.05")
-
-    // f1 scroll out
-    .to([c1_2x,copyCircle1Top_2x,copyCircle1Bottom_2x],.3,{y:33.5,opacity:0,ease:Power1.easeIn},"+=1")
     
-    // // F2 scroll in/out "turn 26" 
-    .from(bg3_2x,.2,{opacity:0,ease:Power1.easeIn},"f2")
-    .from([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.3,{y:-33.5,opacity:0,ease:Power1.easeIn},"f2")
-    .to([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.3,{y:33.5,opacity:0,ease:Power1.easeOut},"+=2")
+    // f1 scroll out
+    .to([c1_2x,copyCircle1Top_2x,copyCircle1Bottom_2x],.2,{y:33.5,opacity:0,ease:Power2.easeIn},"+=1")
+    
+    // F2 scroll in/out "turn 26" 
+    .from(bg3_2x,.15,{opacity:0,ease:Power2.easeIn},"f2")
+    .from([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.15,{y:-33.5,opacity:0,ease:Power2.easeIn},"f2")
+    .to([c2_2x,copyCircle2Top_2x,copyCircle2Bottom_2x],.15,{y:33.5,opacity:0,ease:Power2.easeOut},"+=2")
 
 
     // F3 scroll in/out "lost"
-    .from(bg4_2x,.2,{opacity:0,ease:Power1.easeIn},"f3")
+    .from(bg4_2x,.15,{opacity:0,ease:Power2.easeIn},"f3")
 
-    .from([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.3,{y:-33.5,opacity:0,ease:Power1.easeIn},"f3")
-    .to([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.3,{y:33.5,opacity:0,ease:Power1.easeOut},"+=2")
+    .from([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.15,{y:-33.5,opacity:0,ease:Power2.easeIn},"f3")
+    .to([c3_2x,copyCircle3Top_2x,copyCircle3Bottom_2x],.15,{y:33.5,opacity:0,ease:Power2.easeOut},"+=2")
 
 
     // F4 scroll in/out "life happens"
-    .from(bg5_2x,.2,{opacity:0,ease:Power1.easeIn},"f4")
+    .from(bg5_2x,.15,{opacity:0,ease:Power2.easeIn},"f4")
 
-    .from([c4_2x,copyCircle4Top_2x,copyCircle4Bottom_2x],.3,{y:-33.5,opacity:0,ease:Power1.easeIn},"f4")
-
+    .from([c4_2x,copyCircle4Top_2x,copyCircle4Bottom_2x],.15,{y:-33.5,opacity:0,ease:Power2.easeIn},"f4")
 
 
 

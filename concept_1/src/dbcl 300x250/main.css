@@ -1,0 +1,255 @@
+body {
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+* {
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000px;
+	-ms-overflow-style: hidden;
+}
+
+#container {
+	background-color: white;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.sprite {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+#top_container {
+    left: 0px;
+    top: 0px;
+    width: 180px;
+    height: 203px;
+    /* background-color: #37f269; */
+}
+
+#bottom_container {
+    left: 0px;
+    bottom: 160px;
+    width: 180px;
+    height: 203px;
+    /* background-color: #37f269; */
+}
+
+#copyCircle1Top_2x {
+	left:12px;
+	top:22px;
+	width:158px;
+	height:228px;
+	background-image:url(copyCircle1Top_2x.png);
+	background-size:158px 228px;
+}
+
+#copyCircle1Bottom_2x {
+    left: 13px;
+    top: -215px;
+    width: 138px;
+    height: 368px;
+    background-image: url(copyCircle1Top_2x.png);
+    background-size: 138px 368px;
+}
+
+#box1 {
+	background-color: #f27037;
+    left: 169px;
+    top: 86px;
+    width: 6px;
+    height: 35px;
+}
+
+#box2 {
+	background-color: #f37339;
+    left: 7px;
+    top: 112px;
+    width: 169px;
+    height: 8px;
+}
+
+#box3 {
+	background-color: #f27037;
+    left: 6px;
+    top: 87px;
+    width: 10px;
+    height: 28px;
+}
+
+#box4 {
+	background-color: #f26e35;
+    left: 6px;
+    top: 84px;
+    width: 170px;
+    height: 8px;
+}
+
+#cta_2x {
+	left:0px;
+	top:201px;
+	width:300px;
+	height:49px;
+	background-image:url(cta_2x.png);
+	background-size:300px 49px;
+}
+
+#bg1_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(bg1_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg2_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(bg2_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg3_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(bg3_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg4_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(bg4_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg5_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(bg1_2x.jpg);
+	background-size:300px 250px;
+}
+
+#eyebrow1_2x {
+	left:180px;
+	top:96px;
+	width:113px;
+	height:16px;
+	background-image:url(eyebrow1_2x.png);
+	background-size:113px 16px;
+}
+
+#box_2x {
+	left:8px;
+	top:87px;
+	width:166px;
+	height:32px;
+	background-image:url(box_2x.png);
+	background-size:166px 32px;
+}
+
+#c1_2x {
+	left:18px;
+	top:97px;
+	width:151px;
+	height:13px;
+	background-image:url(c1_2x.png);
+	background-size:151px 13px;
+}
+
+#c2_2x {
+	left:51px;
+	top:96px;
+	width:116px;
+	height:13px;
+	background-image:url(c2_2x.png);
+	background-size:116px 13px;
+}
+
+#copyCircle2Top_2x {
+	left:12px;
+	top:22px;
+	width:158px;
+	height:228px;
+	background-image:url(copyCircle2Top_2x.png);
+	background-size:158px 228px;
+}
+
+#copyCircle2Bottom_2x {
+	left:11px;
+	top:-215px;
+	width:138px;
+	height:368px;
+	background-image:url(copyCircle2Top_2x.png);
+	background-size:138px 368px;
+}
+
+#copyCircle3Top_2x {
+	left:12px;
+	top:21px;
+	width:158px;
+	height:229px;
+	background-image:url(copyCircle3Top_2x.png);
+	background-size:158px 229px;
+}
+
+#copyCircle3Bottom_2x {
+	left:11px;
+	top:-215px;
+	width:138px;
+	height:367px;
+	background-image:url(copyCircle3Top_2x.png);
+	background-size:138px 367px;
+}
+
+#c3_2x {
+	left:19px;
+	top:96px;
+	width:148px;
+	height:13px;
+	background-image:url(c3_2x.png);
+	background-size:148px 13px;
+}
+
+#c4_2x {
+	left:28px;
+	top:96px;
+	width:139px;
+	height:13px;
+	background-image:url(c4_2x.png);
+	background-size:139px 13px;
+}
+
+#copyCircle4Top_2x {
+	left:15px;
+	top:21px;
+	width:155px;
+	height:228px;
+	background-image:url(copyCircle4Top_2x.png);
+	background-size:155px 228px;
+}
+
+#copyCircle4Bottom_2x {
+	left:11px;
+	top:-215px;
+	width:138px;
+	height:367px;
+	background-image:url(copyCircle4Top_2x.png);
+	background-size:138px 367px;
+}
